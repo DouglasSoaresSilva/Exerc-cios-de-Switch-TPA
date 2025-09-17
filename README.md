@@ -3,7 +3,6 @@
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
-  <title>Explicação dos exercícios - Switch</title>
 </head>
 <body>
   <h1>Explicação dos exercícios do repositório "Exercícios de Switch - TPA"</h1>
