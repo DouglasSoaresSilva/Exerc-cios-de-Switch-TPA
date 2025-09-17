@@ -38,6 +38,11 @@
       <li><strong>default:</strong> opção inválida.</li>
     </ul>
   Ao escolher sair, o laço termina e o programa encerra.</p>
+<img width="403" height="188" alt="image" src="https://github.com/user-attachments/assets/ae79ad11-4b73-4edc-be04-9f7b54e7a8f7" />
+<img width="405" height="197" alt="image" src="https://github.com/user-attachments/assets/15917a6a-09da-41d4-af39-dd807ddc1a04" />
+<img width="398" height="205" alt="image" src="https://github.com/user-attachments/assets/3560133f-ce0e-4ad8-8a6d-dab40bb4fcb9" />
+<img width="410" height="187" alt="image" src="https://github.com/user-attachments/assets/606320d5-3195-4bbf-a13f-40924bf31503" />
+
 
 <br>
   <h2>6. SwitchSemana</h2>
