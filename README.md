@@ -1,4 +1,4 @@
-# Exerc-cios-de-Switch-TPA
+# Exercícios-de-Switch-TPA
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
