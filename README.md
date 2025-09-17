@@ -23,12 +23,11 @@
   <p><strong>Entrada:</strong> nome da fruta (string).<br>
   <strong>Função:</strong> aplica <code>fruta.toLowerCase()</code> e faz <code>switch</code> sobre a string para mostrar preço, descrição ou disponibilidade para cada fruta conhecida. Há um <code>default</code> para fruta não cadastrada.</p>
 <img width="423" height="131" alt="image" src="https://github.com/user-attachments/assets/1b82d9bb-5a64-473f-b975-eca6ef73d4e9" />
-
 <br>
   <h2>4. JogosSwitch</h2>
   <p><strong>Entrada:</strong> número do menu que representa um jogo.<br>
   <strong>Função:</strong> exibe um menu (1, 2, ...), usa <code>switch</code> para imprimir o nome/descrição do jogo escolhido ou chamar a função que o inicia. Geralmente há um loop para permitir repetir escolhas e uma opção para sair.</p>
-
+<img width="594" height="134" alt="image" src="https://github.com/user-attachments/assets/c395b3c7-faf8-45fb-912b-b9f4bf8ca115" />
   <h2>5. SimuladorBanco</h2>
   <p><strong>Entrada/Estado:</strong> saldo (double) e opções de menu.<br>
   <strong>Função:</strong> dentro de um laço (<code>do/while</code> ou <code>while</code>) exibe opções: depositar, sacar, ver saldo, sair. O <code>switch</code> trata cada ação:
