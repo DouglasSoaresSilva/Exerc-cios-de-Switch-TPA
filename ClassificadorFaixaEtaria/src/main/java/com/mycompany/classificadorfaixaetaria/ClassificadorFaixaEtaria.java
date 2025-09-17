@@ -1,60 +1,48 @@
 package com.mycompany.classificadorfaixaetaria;
-
 import java.util.Scanner;
-
-/**
- *
- * @author FATEC ZONA LESTE
- */
+//Código feito por DouglasSoaresSilva - Professor Marcelo Collado
 public class ClassificadorFaixaEtaria {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        double saldo = 1000.00; // saldo fictício inicial
-        
-        
-            System.out.println("|=== Menu de Atendimento Bancário ===|");
-            System.out.println("1 - Consultar saldo");
-            System.out.println("2 - Sacar dinheiro");
-            System.out.println("3 - Depositar dinheiro");
-            System.out.println("4 - Encerrar atendimento");
-            System.out.print("Escolha uma opção: ");
-            
-            int opcao = input.nextInt();
+       Scanner sc = new Scanner(System.in);
 
-            switch (opcao) {
-                case 1:
-                    System.out.println("Seu saldo atual é: R$ " + saldo);
-                    break;
+        // Pedir idade do usuário
+        System.out.print("Digite sua idade: ");
+        int idade = sc.nextInt();
 
-                case 2:
-                    System.out.print("Digite o valor para saque: R$ ");
-                    double saque = input.nextDouble();
-                    if (saque <= saldo) {
-                        saldo -= saque;
-                        System.out.println("Saque realizado com sucesso!");
-                        System.out.println("Novo saldo: R$ " + saldo);
-                    } else {
-                        System.out.println("Saldo insuficiente!");
-                    }
-                    break;
+        int faixa = 0; // variável para armazenar código da faixa etária
 
-                case 3:
-                    System.out.print("Digite o valor para depósito: R$ ");
-                    double deposito = input.nextDouble();
-                    saldo += deposito;
-                    System.out.println("Depósito realizado com sucesso!");
-                    System.out.println("Novo saldo: R$ " + saldo);
-                    break;
+        // Usar if/else para definir a faixa
+        if (idade >= 0 && idade <= 12) {
+            faixa = 1;
+        } else if (idade >= 13 && idade <= 17) {
+            faixa = 2;
+        } else if (idade >= 18 && idade <= 59) {
+            faixa = 3;
+        } else if (idade >= 60) {
+            faixa = 4;
+        } else {
+            faixa = -1; // idade inválida
+        }
 
-                case 4:
-                    System.out.println("Atendimento encerrado. Obrigado!");
-                    break;
+        // Usar switch para imprimir a faixa correspondente
+        switch (faixa) {
+            case 1:
+                System.out.println("Criança");
+                break;
+            case 2:
+                System.out.println("Adolescente");
+                break;
+            case 3:
+                System.out.println("Adulto");
+                break;
+            case 4:
+                System.out.println("Idoso");
+                break;
+            default:
+                System.out.println("Idade inválida!");
+        }
 
-                default:
-                    System.out.println("Opção inválida! Tente novamente.");
-                    break;
-                    
-               
+        sc.close();
     }
-}}
+}
