@@ -17,6 +17,7 @@
   <h2>2. ClassificadorFaixaEtaria</h2>
   <p><strong>Entrada:</strong> idade (inteiro).<br>
   <strong>Função:</strong> valida a idade (não negativa), define a categoria (criança, adolescente, adulto, idoso) — possivelmente por intervalos — e usa <code>switch</code> sobre essa categoria para imprimir a classificação. O programa pode usar condicionais antes do <code>switch</code> para mapear a idade à categoria.</p>
+<img width="410" height="118" alt="image" src="https://github.com/user-attachments/assets/9e3abf78-cf51-413f-8d02-980b636418fa" />
 
 <br>
   <h2>3. Frutas</h2>
